@@ -178,7 +178,7 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\1.jpg);
+    url(../images/img-name.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -199,6 +199,17 @@ a {
 .feature-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
   box-sizing: border-box;
+}
+.sec2-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
 }
 .features-name {
   font-weight: 500;
