@@ -127,7 +127,7 @@ a {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+/* first section */
 .first-section {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -165,13 +165,27 @@ a {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
 }
-
+.hero {
+  display: block;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office\ 1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 1440px;
+}
+/* 2 section */
 .features-section {
   padding: 120px 0;
 }
