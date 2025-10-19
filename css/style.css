@@ -479,10 +479,21 @@ a {
 img {
   display: block;
 }
+.social-link:hover,
+.social-link:focus {
+  background-color: #31d0aa;
+}
+.footer-wrapper {
+  display: flex;
+
+  align-items: baseline;
+}
+.footer-info {
+  margin-right: 120px;
+}
 .page-end-media {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 }
 .socmedia-parag {
   font-weight: 500;
@@ -498,8 +509,4 @@ img {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-.social-link:hover,
-.social-link:focus {
-  background-color: #31d0aa;
 }
