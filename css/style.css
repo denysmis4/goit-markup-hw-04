@@ -386,7 +386,34 @@ a {
   height: auto;
   display: block;
 }
-
+/* portfolio-overlay */
+.portfolio-element {
+  position: relative;
+  overflow: hidden;
+}
+.overlay-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px 32px 164px 32px;
+  background-color: #4d5ae5;
+  width: 360px;
+  height: 300px;
+  transform: translateY(100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-element:hover .overlay-text {
+  transform: translateY(0);
+}
+/* portfolio-overley */
 .portfolio-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
