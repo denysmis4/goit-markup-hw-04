@@ -497,6 +497,9 @@ img {
   color: #ffffff;
   margin-bottom: 16px;
 }
+:root {
+  --color-light: #ffffff;
+}
 
 .social-list,
 .footer-social {
