@@ -484,6 +484,7 @@ img {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  gap: 120px;
 }
 .footer-info {
   margin-right: 120px;
@@ -493,7 +494,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-light);
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -522,4 +523,9 @@ img {
 .social-item {
   width: 40px;
   height: 40px;
+}
+.social-link svg {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
 }
