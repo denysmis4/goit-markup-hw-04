@@ -479,34 +479,37 @@ a {
 img {
   display: block;
 }
-.social-link:hover,
-.social-link:focus {
-  background-color: #31d0aa;
-}
-.footer-wrapper {
+.footer-container {
   display: flex;
-
-  align-items: baseline;
+  align-items: baseline; /* вирівнювання по базовій лінії, як просили */
+  justify-content: space-between;
 }
 .footer-info {
-  margin-right: 120px;
+  margin-right: 120px; /* відступ між колонками футера */
 }
-.page-end-media {
-  display: flex;
-  flex-direction: column;
-}
-.socmedia-parag {
+.footer-media-p {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--color-light);
   margin-bottom: 16px;
 }
-.social-media-end {
-  display: flex;
-  gap: 16px;
+
+.social-list,
+.footer-social {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--color-accent-hover);
+  outline: none;
+}
+.social-link:focus-visible {
+  box-shadow: 0 0 0 3px rgba(77, 90, 229, 0.18);
 }
